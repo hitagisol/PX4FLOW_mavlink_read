@@ -3,6 +3,8 @@ read value from PX4FLOW under mavlink protocol
 
 This is a python package used to get value from PX4FLOW sensor.
 
+test.py is an example for using this package. To use test.py, firstly conncet the PX4FLOW to your computer via USB, then run python test.py. Two files sample.txt & samplerad.txt will be generated into the dictionary which you save the test.py.
+
 Mavlinkprotocol.py 
 
 -- Used to unpack binary data under mavlink protocol into desired format. Two arguments are needed: handler and msgid.
