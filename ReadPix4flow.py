@@ -4,7 +4,7 @@ from Pix4flowDriver import Pix4flowDriver
 
 
 class ReadPix4flow(Thread):
-    def __init__(self,tty='/dev/ttyACM0',baud=9600):
+    def __init__(self,tty='COM4',baud=9600):
         self.terminate = False
         self.handler = None
         self.tty = tty
